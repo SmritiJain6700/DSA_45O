@@ -2,8 +2,6 @@
 // spece-complexity - O(1)
 package Sorting;
 
-import java.util.*;
-
 public class bubbleSortRecursion {
     static void bubble_sort(int[] arr, int n, int size) {
         // Base case: range == size.
