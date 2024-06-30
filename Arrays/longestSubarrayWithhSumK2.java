@@ -14,7 +14,6 @@ public class longestSubarrayWithhSumK2{
         int[] arr = {-13,0,6,15,16,2,15,-12,17,-16,0,-3,19,-3,2,-9,-6};
         int k = 15;
         int n = arr.length;
-
         // find largest subarray with sum k
         long prefSum = 0;
         HashMap<Long,Integer> map = new HashMap<>();
